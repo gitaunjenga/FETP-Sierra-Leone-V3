@@ -1,0 +1,26 @@
+[
+  {
+      "front": "Accuracy",
+      "back": "The extent to which data correctly describes the real-world object or event it represents. Accurate data is free from errors and correctly reflects the truth.\n\nData comes from sources that are verifiable and trustworthy."
+  },
+  {
+      "front": "Completeness",
+      "back": "The degree to which all required data is present.\n\nComplete data contains all necessary elements and values needed for its intended use."
+  },
+  {
+      "front": "Timeliness",
+      "back": "The degree to which data is up-to-date and available within a suitable time frame.\n\nTimely data ensures that information is current and readily accessible when needed."
+  },
+  {
+      "front": "Consistency",
+      "back": "The degree to which data is uniformly consistent within a dataset and across different datasets - and systems.\n\nConsistent data does not have conflicting or redundant values, allowing integration and comparison of data from multiple systems."
+  },
+  {
+      "front": "Uniqueness",
+      "back": "The extent to which each record is unique within a dataset.\n\nUnique data ensures that there are no duplicate records and each entry is distinct."
+  },
+  {
+      "front": "Validity",
+      "back": "The degree to which data conforms to the defined formats, rules, and constraints.\n\nValid data adheres to predefined standards and business rules."
+  }
+]

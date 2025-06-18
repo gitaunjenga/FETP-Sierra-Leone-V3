@@ -1,0 +1,663 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Unit 1: Introduction to Informatics for Epidemiology &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Unit_1';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Unit 2: Using Informatics Principles, Systems, and Tools for Surveillance" href="Unit_2.html" />
+    <link rel="prev" title="Context and Purpose" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Context and Purpose
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Unit 1: Introduction to Informatics for Epidemiology</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Unit_2.html">Unit 2: Using Informatics Principles, Systems, and Tools for Surveillance</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="Unit_2.1.html">Unit 2.1: Using Informatics Principles, Systems, and Tools to Access, Explore, and Prepare Your Data for Analysis</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="Unit_2.1_Case_study.html">Case Study: Surveillance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Unit_2.1_Case_study_Assignment_1.html">Case Study Assignment 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Unit_2.1_Using_Software_to_Explore_Datasets.html">Using Software to Explore Datasets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Unit_2.1_Case_study_Assignment_2.html">Case Study Assignment 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Unit_2.1_Case_study_Assignment_3.html">Case Study Assignment 3</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit_2.2.html">Unit 2.2: Using Informatics Principles and Tools to Detect and Fix Data Quality Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit_2.3_Individual_Assignment_4.html">Case Study Assignment 3</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_3.html">Unit 3: Design and Plan for Action</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_4.html">Unit 4:  Collecting Data with Informatics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_5.html">Unit 5: Compile Data Using Informatics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_6.html">Unit 6: Analyze &amp; Visualize Data Using Informatics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_7.html">Unit 7: Interpret Results Using Informatics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Unit_8.html">Unit 8: Technology and Effective Communication</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FUnit_1.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Unit_1.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Unit 1: Introduction to Informatics for Epidemiology</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">1.1 Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-slides">1.2 Unit Slides</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lailas-problem-data-overload">1.3 Laila’s Problem: Data Overload</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-public-health-informatics">2. What is Public Health Informatics?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workforce-what-do-informaticians-do">2.1 Workforce: What do informaticians do?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transforming-data-into-wisdom">3. Transforming Data into Wisdom</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#public-health-surveillance-information-value-cycle">3.1 Public Health Surveillance + Information Value Cycle</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#informatics-principles">4. Informatics Principles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">5. Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-knowledge-check">6. Interactive Knowledge Check</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="unit-1-introduction-to-informatics-for-epidemiology">
+<h1>Unit 1: Introduction to Informatics for Epidemiology<a class="headerlink" href="#unit-1-introduction-to-informatics-for-epidemiology" title="Link to this heading">#</a></h1>
+<section id="learning-objectives">
+<h2>1.1 Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Describe how key informatics principles, systems, and tools can improve public health surveillance and outbreak investigations.</p></li>
+<li><p>Explain how the transformation of raw data to meaningful information, knowledge, and wisdom necessary supports data-driven action.</p></li>
+<li><p>Match your country’s health information system landscape and current trends to surveillance system components.</p></li>
+</ul>
+</section>
+<section id="unit-slides">
+<h2>1.2 Unit Slides<a class="headerlink" href="#unit-slides" title="Link to this heading">#</a></h2>
+<iframe class="slides" width="800px" height="480px"
+        src="https://docs.google.com/presentation/d/1myHgIGYDyXoRbkKiiPs69sBGG9wdxaiXeRFSmp8PcYM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</section>
+<section id="lailas-problem-data-overload">
+<h2>1.3 Laila’s Problem: Data Overload<a class="headerlink" href="#lailas-problem-data-overload" title="Link to this heading">#</a></h2>
+<p>As a field epidemiologist, Laila is always on the lookout for potential outbreaks.</p>
+<p><strong>Her challenge?</strong></p>
+<ul class="simple">
+<li><p>Laila has a large volume of data coming to her at full speed from a
+wide variety of sources.</p></li>
+<li><p>Locating, cleaning, and transforming the data she needs into
+information she can use can be time-consuming. She has many
+demands on her time.</p></li>
+</ul>
+<p><strong>How many of you can relate to this same challenge?</strong></p>
+<p><strong>How are you solving this problem?</strong></p>
+<p><img alt="fishy" src="_images/image3.png" /></p>
+</section>
+<section id="what-is-public-health-informatics">
+<h2>2. What is Public Health Informatics?<a class="headerlink" href="#what-is-public-health-informatics" title="Link to this heading">#</a></h2>
+<p><img alt="fishy" src="_images/image41.png" /></p>
+<p>Public health informatics is the systematic application of information, computer science, and
+technology in areas of public health, (surveillance, prevention, preparedness, and health promotion)
+to capture, manage, analyze, disseminate, and use information to improve population-level health
+outcomes.</p>
+<p>Public health informatics uses information technology to design and run information systems that “package” and securely send public health data to the right people, at the right place, and on time.</p>
+<section id="workforce-what-do-informaticians-do">
+<h3>2.1 Workforce: What do informaticians do?<a class="headerlink" href="#workforce-what-do-informaticians-do" title="Link to this heading">#</a></h3>
+<p>Architects plan buildings with the needs of a community in mind.</p>
+<p>Informaticians plan, maintain, and improve data systems that produce the information public health professionals need to make sound public health decisions.</p>
+<p><img alt="fishy" src="_images/image5.png" /></p>
+<p><strong>Lets take a moment and watch this video</strong></p>
+<iframe class="video" width="800px" height="480px"
+        src="https://www.youtube.com/embed/fLUygA8Hpfo?rel=0"
+        allowfullscreen></iframe>
+</section>
+</section>
+<section id="transforming-data-into-wisdom">
+<h2>3. Transforming Data into Wisdom<a class="headerlink" href="#transforming-data-into-wisdom" title="Link to this heading">#</a></h2>
+<p><img alt="fishy" src="_images/wisdom.png" /></p>
+<p><strong>Wisdom</strong>: the ability to make well-informed decisions and take effective actions based on understanding of the underlying knowledge</p>
+<p><strong>Knowledge</strong>: analyzed and interpreted information to uncover patterns, trends &amp; relationships. Uncovers “how” and “why.”</p>
+<p><strong>Information</strong>: organized, structure and contexualized data. Answers “person,” “place,” and “time.”</p>
+<p><strong>Data</strong>: raw unprocessed facts and figures. Holds limited value in isolation.</p>
+<section id="public-health-surveillance-information-value-cycle">
+<h3>3.1 Public Health Surveillance + Information Value Cycle<a class="headerlink" href="#public-health-surveillance-information-value-cycle" title="Link to this heading">#</a></h3>
+<p><img alt="fishy" src="_images/image2.png" /></p>
+</section>
+</section>
+<section id="informatics-principles">
+<h2>4. Informatics Principles<a class="headerlink" href="#informatics-principles" title="Link to this heading">#</a></h2>
+<p><img alt="fishy" src="_images/image1.png" /></p>
+<p>By strategically applying informatics principles, systems and tools, we use evidence to solve public health problems in our current, existing ecosystem and improve health outcomes</p>
+<p><strong>Digital ecosystems are defined by:</strong></p>
+<ul class="simple">
+<li><p>Culture, gender and social norms,</p></li>
+<li><p>Political environment, economy, technology infrastructure and</p></li>
+<li><p>Other factors that can affect an individual’s ability to access and use a technology</p></li>
+</ul>
+<p>Understanding the existing digital ecosystem can help determine if and how epidemiologists should:</p>
+<ul class="simple">
+<li><p>Engage with and adapt existing informatics solutions.</p></li>
+<li><p>Support local informaticians and actors taking action to tackle key challenges</p></li>
+</ul>
+<p>This includes understanding existing:</p>
+<ul class="simple">
+<li><p>Access to devices, connectivity, affordability, digital literacy, and capacity strengthening opportunities so that initiatives are designed to accommodate or strengthen these realities.</p></li>
+<li><p>Government policies, national visions, sector policies/priorities/strategies, and efforts to expand foundational digital public infrastructure.</p></li>
+</ul>
+<p><strong>How would you describe your current access to technology and connectivity in your work setting? Is it affordable? For whom?</strong></p>
+<div class="remove-from-content-only tip admonition">
+<p class="admonition-title">Additional Materials</p>
+<p>This collection of video resources offers an in-depth look at public health informatics.</p>
+</div>
+<iframe class="video" width="800px" height="480px"
+        src="https://www.youtube.com/embed/Fzc3j8QG_Mw?rel=0"
+        allowfullscreen></iframe>
+</section>
+<section id="summary">
+<h2>5. Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Informatics applies relevant information technology to content and processes that help epidemiologists use data to rapidly detect, diagnose, and take action to address public health emergencies.</p></li>
+<li><p>Informaticians specialize in translating data into information, which allows
+epidemiologists to apply their knowledge and turn into wisdom to solve epidemiological problems.</p></li>
+<li><p>By applying informatics to the public health surveillance cycle, epidemiologists can extract greater value from the data available to them.</p></li>
+<li><p>Applying informatics principles enables epidemiologists to use informatics systems and tools more effectively</p></li>
+</ul>
+</section>
+<section id="interactive-knowledge-check">
+<h2>6. Interactive Knowledge Check<a class="headerlink" href="#interactive-knowledge-check" title="Link to this heading">#</a></h2>
+<iframe class="form" width="640px" height="480px"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfQ0jYFbALGUqMfj7VwWDZZ6mpc88e0FRmGJ7Gz0w--M6ReoA/viewform?embedded=true"
+        allowfullscreen></iframe>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Context and Purpose</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Unit_2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Unit 2: Using Informatics Principles, Systems, and Tools for Surveillance</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">1.1 Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unit-slides">1.2 Unit Slides</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lailas-problem-data-overload">1.3 Laila’s Problem: Data Overload</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-public-health-informatics">2. What is Public Health Informatics?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workforce-what-do-informaticians-do">2.1 Workforce: What do informaticians do?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transforming-data-into-wisdom">3. Transforming Data into Wisdom</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#public-health-surveillance-information-value-cycle">3.1 Public Health Surveillance + Information Value Cycle</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#informatics-principles">4. Informatics Principles</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">5. Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-knowledge-check">6. Interactive Knowledge Check</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

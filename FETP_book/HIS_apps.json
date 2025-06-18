@@ -1,0 +1,15 @@
+[
+    {
+        "front": "Electronic Medical Records (EMRs)",
+        "back": "- Patient identifiers, demographics track patient journeys and outcomes.<br> - Patient visits, treatments, and outcomes for conditions.<br> - Diagnosis dates, and follow-up data."
+    },
+    {
+        "front": "Laboratory Information Systems (LIS)",
+        "back": "- Patient identifiers to track patient journeys and outcomes.<br> - Laboratory test orders, referrals, and results and their timing."
+    },
+    {
+        "front": "Community-based information system",
+        "back": "- Patient identifiers, demographics, contacts, location<br>- At home consultations and follow up visits.<br>- Facility & lab referrals"
+    }
+  ]
+  
