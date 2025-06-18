@@ -1,9 +1,9 @@
 format: jb-book
 root: intro
 parts:
-  - caption: RESOURCES
-    chapters:
-    - file: Resources
+  # - caption: RESOURCES
+  #   chapters:
+    # - file: Resources
   - caption: UNIT 1 - INTRODUCTION TO INFORMATICS
     chapters:
     - file: Unit_1
