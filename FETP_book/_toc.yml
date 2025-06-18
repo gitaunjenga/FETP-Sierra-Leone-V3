@@ -58,19 +58,19 @@ parts:
   - caption: UNIT 6 - USING INFORMATICS TO ANALYZE DATA
     chapters:
     - file: Unit_6
-    - file: Unit_6_Assignment_1
-    - file: Unit_6_Assignment_2
+    # - file: Unit_6_Assignment_1
+    # - file: Unit_6_Assignment_2
 
   - caption: UNIT 7 - INTERPRET
     chapters:
     - file: Unit_7
-    - file: Unit_7_Assignment
+    # - file: Unit_7_Assignment
 
   - caption: UNIT 8
     chapters:
     - file: Unit_8
-    - file: Unit_8_Assignment_1
-    - file: Unit_8_Assignment_2
+    # - file: Unit_8_Assignment_1
+    # - file: Unit_8_Assignment_2
 
   - caption: UNIT 9
     chapters:
