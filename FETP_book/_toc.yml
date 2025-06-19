@@ -7,7 +7,7 @@ parts:
   - caption: UNIT 1 - INTRODUCTION TO INFORMATICS
     chapters:
     - file: Unit_1
-  - caption: UNIT 2 - Country & Organizational Context
+  - caption: UNIT 2 - COUNTRY & ORGANIZATIONAL CONTEXT
     chapters:
     - file: Unit_2
   # - caption: Unit 2.1
@@ -32,7 +32,7 @@ parts:
   #   - file: Unit_2.3_Case_study_Assignment_5
   #   - file: Unit_2.3_Case_study_Assignment_6
 
-  - caption: UNIT 3 - Information Needs
+  - caption: UNIT 3 - INFORMATION NEEDS
     chapters:
     - file: Unit_3
     # - file: Unit_3_Assesing_HIS_Applications
@@ -40,13 +40,13 @@ parts:
     # - file: Unit_3_Assignment_2
     # - file: Unit_3_Assignment_3
       
-  - caption: UNIT 4 - Informatics Savvy Designing & Planning
+  - caption: UNIT 4 - INFORMATICS SAVVY DESIGNING & PLANNING
     chapters:
     - file: Unit_4
     # - file: Unit_4_Assignment_1
     # - file: Unit_4_Assignment_2
 
-  - caption: UNIT 5 - Data Security
+  - caption: UNIT 5 - DATA SECURITY
     chapters:
     - file: Unit_5
     # - file: Unit_5_Assignment_1
