@@ -7,7 +7,7 @@ parts:
   - caption: UNIT 1 - INTRODUCTION TO INFORMATICS
     chapters:
     - file: Unit_1
-  - caption: UNIT 2 - DETECTION AND DIAGNOSIS
+  - caption: UNIT 2 - Country & Organizational Context
     chapters:
     - file: Unit_2
   # - caption: Unit 2.1
@@ -32,7 +32,7 @@ parts:
   #   - file: Unit_2.3_Case_study_Assignment_5
   #   - file: Unit_2.3_Case_study_Assignment_6
 
-  - caption: UNIT 3 - USING INFORMATICS TO DESIGN AND PLAN
+  - caption: UNIT 3 - Information Needs
     chapters:
     - file: Unit_3
     # - file: Unit_3_Assesing_HIS_Applications
@@ -40,13 +40,13 @@ parts:
     # - file: Unit_3_Assignment_2
     # - file: Unit_3_Assignment_3
       
-  - caption: UNIT 4 - USING INFORMATICS TO COLLECT DATA
+  - caption: UNIT 4 - Informatics Savvy Designing & Planning
     chapters:
     - file: Unit_4
     # - file: Unit_4_Assignment_1
     # - file: Unit_4_Assignment_2
 
-  - caption: UNIT 5 - USING INFORMATICS TO ORGANIZE AND ANALYZE DATA
+  - caption: UNIT 5 - Data Security
     chapters:
     - file: Unit_5
     # - file: Unit_5_Assignment_1
@@ -55,48 +55,48 @@ parts:
     # - file: Unit_5_Assignment_4
     # - file: Unit_5_Assignment_5
 
-  - caption: UNIT 6 - USING INFORMATICS TO ANALYZE DATA
+  - caption: UNIT 6 - DATA COLLECTION
     chapters:
     - file: Unit_6
     # - file: Unit_6_Assignment_1
     # - file: Unit_6_Assignment_2
 
-  - caption: UNIT 7 - INTERPRET
+  - caption: UNIT 7 - DATA QUALITY
     chapters:
     - file: Unit_7
     # - file: Unit_7_Assignment
 
-  - caption: UNIT 8
+  - caption: UNIT 8 - DATA STANDARDS
     chapters:
     - file: Unit_8
     # - file: Unit_8_Assignment_1
     # - file: Unit_8_Assignment_2
 
-  - caption: UNIT 9
+  - caption: UNIT 9 - ORGANIZING & STORING DATA
     chapters:
     - file: Unit_9
 
-  - caption: UNIT 10
+  - caption: UNIT 10 - CLEAN AND TRANSFORM DATA
     chapters:
     - file: Unit_10
 
-  - caption: UNIT 11
+  - caption: UNIT 11 - DATA MERGING & EXCHANGE
     chapters:
     - file: Unit_11
   
-  - caption: UNIT 12
+  - caption: UNIT 12 - SUMMARIZING DATA
     chapters:
     - file: Unit_12
   
-  - caption: UNIT 13
+  - caption: UNIT 13 - VISUALIZING DATA
     chapters:
     - file: Unit_13
   
-  - caption: UNIT 14
+  - caption: UNIT 14 - AI & INTERPRETING DATA
     chapters:
     - file: Unit_14
   
-  - caption: UNIT 15
+  - caption: UNIT 15 - COMMUNICATION & DISSEMINATION
     chapters:
     - file: Unit_15
 
