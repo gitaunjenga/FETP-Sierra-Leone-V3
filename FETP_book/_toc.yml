@@ -10,98 +10,77 @@ parts:
   - caption: UNIT 1 - INTRODUCTION TO INFORMATICS
     chapters:
     - file: Unit_1
+    - file: Unit_1_Informatics_quiz
+
   - caption: UNIT 2 - COUNTRY & ORGANIZATIONAL CONTEXT
     chapters:
     - file: Unit_2
-  # - caption: Unit 2.1
-  #   chapters:
-  #   - file: Unit_2.1
-  #   - file: Unit_2.1_Group_work
-  #   - file: Unit_2.1_Case_study
-  #   - file: Unit_2.1_Case_study_Assignment_1
-  #   - file: Unit_2.1_Using_Software_to_Explore_Datasets
-  #   - file: Unit_2.1_Case_study_Assignment_2
-  #   - file: Unit_2.1_Case_study_Assignment_3
-
-  # - caption: Unit 2.2
-  #   chapters:
-  #   - file: Unit_2.2
-  #   - file: Unit_2.2_Case_study_Assignment_4
-
-  # - caption: Unit 2.3
-  #   chapters:
-  #   - file: Unit_2.3_Compile_and_Analyze_Data
-  #   - file: Unit_2.3
-  #   - file: Unit_2.3_Case_study_Assignment_5
-  #   - file: Unit_2.3_Case_study_Assignment_6
+    - file: Unit_2_Informatics_quiz
 
   - caption: UNIT 3 - INFORMATION NEEDS
     chapters:
     - file: Unit_3
-    # - file: Unit_3_Assesing_HIS_Applications
-    # - file: Unit_3_Assignment_1
-    # - file: Unit_3_Assignment_2
-    # - file: Unit_3_Assignment_3
+    - file: Unit_3_Informatics_quiz
       
   - caption: UNIT 4 - DATA SOURCES FOR YOUR INFORMATION NEEDS
     chapters:
     - file: Unit_4
-    # - file: Unit_4_Assignment_1
-    # - file: Unit_4_Assignment_2
+    - file: Unit_4_Informatics_quiz
 
   - caption: UNIT 5 - DATA SECURITY
     chapters:
     - file: Unit_5
-    # - file: Unit_5_Assignment_1
-    # - file: Unit_5_Assignment_2
-    # - file: Unit_5_Assignment_3
-    # - file: Unit_5_Assignment_4
-    # - file: Unit_5_Assignment_5
+    - file: Unit_5_Informatics_quiz
 
   - caption: UNIT 6 - INTRODUCTION TO AI
     chapters:
     - file: Unit_6
-    # - file: Unit_6_Assignment_1
-    # - file: Unit_6_Assignment_2
+    - file: Unit_6_Informatics_quiz
 
   - caption: UNIT 7 - DATA COLLECTION
     chapters:
     - file: Unit_7
-    # - file: Unit_7_Assignment
+    - file: Unit_7_Informatics_quiz
 
   - caption: UNIT 8 - DATA QUALITY
     chapters:
     - file: Unit_8
-    # - file: Unit_8_Assignment_1
-    # - file: Unit_8_Assignment_2
+    - file: Unit_8_Informatics_quiz
 
   - caption: UNIT 9 - DATA STANDARDS
     chapters:
     - file: Unit_9
+    - file: Unit_9_Informatics_quiz
 
   - caption: UNIT 10 - ORGANIZING & STORING DATA
     chapters:
     - file: Unit_10
+    - file: Unit_10_Informatics_quiz
 
   - caption: UNIT 11 - CLEAN AND TRANSFORM DATA
     chapters:
     - file: Unit_11
+    - file: Unit_11_Informatics_quiz
   
   - caption: UNIT 12 - DATA MERGING & EXCHANGE
     chapters:
     - file: Unit_12
+    - file: Unit_12_Informatics_quiz
   
   - caption: UNIT 13 - SUMMARIZING DATA
     chapters:
     - file: Unit_13
+    - file: Unit_13_Informatics_quiz
   
   - caption: UNIT 14 - VISUALIZING DATA
     chapters:
     - file: Unit_14
+    - file: Unit_14_Informatics_quiz
   
   - caption: UNIT 15 - AI & INTERPRETING DATA
     chapters:
     - file: Unit_15
+    - file: Unit_15_Informatics_quiz
 
     
   - caption: UNIT 16 - COMMUNICATION & DISSEMINATION
