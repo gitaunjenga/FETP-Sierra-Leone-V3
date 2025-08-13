@@ -43,7 +43,7 @@ parts:
     # - file: Unit_3_Assignment_2
     # - file: Unit_3_Assignment_3
       
-  - caption: UNIT 4 - INFORMATICS SAVVY DESIGNING & PLANNING
+  - caption: UNIT 4 - DATA SOURCES FOR YOUR INFORMATION NEEDS
     chapters:
     - file: Unit_4
     # - file: Unit_4_Assignment_1
@@ -58,47 +58,52 @@ parts:
     # - file: Unit_5_Assignment_4
     # - file: Unit_5_Assignment_5
 
-  - caption: UNIT 6 - DATA COLLECTION
+  - caption: UNIT 6 - INTRODUCTION TO AI
     chapters:
     - file: Unit_6
     # - file: Unit_6_Assignment_1
     # - file: Unit_6_Assignment_2
 
-  - caption: UNIT 7 - DATA QUALITY
+  - caption: UNIT 7 - DATA COLLECTION
     chapters:
     - file: Unit_7
     # - file: Unit_7_Assignment
 
-  - caption: UNIT 8 - DATA STANDARDS
+  - caption: UNIT 8 - DATA QUALITY
     chapters:
     - file: Unit_8
     # - file: Unit_8_Assignment_1
     # - file: Unit_8_Assignment_2
 
-  - caption: UNIT 9 - ORGANIZING & STORING DATA
+  - caption: UNIT 9 - DATA STANDARDS
     chapters:
     - file: Unit_9
 
-  - caption: UNIT 10 - CLEAN AND TRANSFORM DATA
+  - caption: UNIT 10 - ORGANIZING & STORING DATA
     chapters:
     - file: Unit_10
 
-  - caption: UNIT 11 - DATA MERGING & EXCHANGE
+  - caption: UNIT 11 - CLEAN AND TRANSFORM DATA
     chapters:
     - file: Unit_11
   
-  - caption: UNIT 12 - SUMMARIZING DATA
+  - caption: UNIT 12 - DATA MERGING & EXCHANGE
     chapters:
     - file: Unit_12
   
-  - caption: UNIT 13 - VISUALIZING DATA
+  - caption: UNIT 13 - SUMMARIZING DATA
     chapters:
     - file: Unit_13
   
-  - caption: UNIT 14 - AI & INTERPRETING DATA
+  - caption: UNIT 14 - VISUALIZING DATA
     chapters:
     - file: Unit_14
   
-  - caption: UNIT 15 - COMMUNICATION & DISSEMINATION
+  - caption: UNIT 15 - AI & INTERPRETING DATA
     chapters:
     - file: Unit_15
+
+    
+  - caption: UNIT 16 - COMMUNICATION & DISSEMINATION
+    chapters:
+    - file: Unit_16
