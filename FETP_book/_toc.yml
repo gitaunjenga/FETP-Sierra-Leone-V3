@@ -7,22 +7,22 @@ parts:
   - caption: UNIT 0 - INTRO TO THE FETP INFORMATICS MODULE
     chapters:
     - file: Unit_0
-  - caption: UNIT 1 - INTRODUCTION TO INFORMATICS
+  - caption: UNIT 1 - INFORMATICS FOR FIELD EPIDEMIOLOGY
     chapters:
     - file: Unit_1
     - file: Unit_1_Informatics_quiz
 
-  - caption: UNIT 2 - COUNTRY & ORGANIZATIONAL CONTEXT
+  - caption: UNIT 2 - COUNTRY & ORGANIZATIONAL INFORMATICS CONTEXT
     chapters:
     - file: Unit_2
     - file: Unit_2_Informatics_quiz
 
-  - caption: UNIT 3 - INFORMATION NEEDS
+  - caption: UNIT 3 - USING INFORMATICS TO GET INFORMATION FASTER
     chapters:
     - file: Unit_3
     - file: Unit_3_Informatics_quiz
       
-  - caption: UNIT 4 - DATA SOURCES FOR YOUR INFORMATION NEEDS
+  - caption: UNIT 4 - DATA SOURCES THAT MEET YOUR INFORMATION NEEDS
     chapters:
     - file: Unit_4
     - file: Unit_4_Informatics_quiz
@@ -32,7 +32,7 @@ parts:
     - file: Unit_5
     - file: Unit_5_Informatics_quiz
 
-  - caption: UNIT 6 - INTRODUCTION TO AI
+  - caption: UNIT 6 - INTRODUCTION TO ARTIFICIAL INTELLIGENCE
     chapters:
     - file: Unit_6
     - file: Unit_6_Informatics_quiz
@@ -52,37 +52,37 @@ parts:
     - file: Unit_9
     - file: Unit_9_Informatics_quiz
 
-  - caption: UNIT 10 - ORGANIZING & STORING DATA
+  - caption: UNIT 10 - TOOLS AND SYSTEMS TO ORGANIZE & STORE DATA
     chapters:
     - file: Unit_10
     - file: Unit_10_Informatics_quiz
 
-  - caption: UNIT 11 - CLEAN AND TRANSFORM DATA
+  - caption: UNIT 11 - AUTOMATING DATA TRANSFORMATION
     chapters:
     - file: Unit_11
     - file: Unit_11_Informatics_quiz
   
-  - caption: UNIT 12 - DATA MERGING & EXCHANGE
+  - caption: UNIT 12 - AUTOMATING DATA MERGING & EXCHANGE
     chapters:
     - file: Unit_12
     - file: Unit_12_Informatics_quiz
   
-  - caption: UNIT 13 - SUMMARIZING DATA
+  - caption: UNIT 13 - USING INFORMATICS TO IMPROVE DATA ANALYSIS AND VISUALIZATION
     chapters:
     - file: Unit_13
     - file: Unit_13_Informatics_quiz
   
-  - caption: UNIT 14 - VISUALIZING DATA
+  - caption: UNIT 14 - PUBLIC HEALTH DASHBOARDS
     chapters:
     - file: Unit_14
     - file: Unit_14_Informatics_quiz
   
-  - caption: UNIT 15 - AI & INTERPRETING DATA
+  - caption: UNIT 15 - USING AI ETHICALLY TO INTERPRETING DATA
     chapters:
     - file: Unit_15
     - file: Unit_15_Informatics_quiz
 
     
-  - caption: UNIT 16 - COMMUNICATION & DISSEMINATION
+  - caption: UNIT 16 - USING INFORMATICS TO IMPROVE COMMUNICATION
     chapters:
     - file: Unit_16
